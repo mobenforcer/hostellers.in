@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hostellers</string>
+    <string name="EmailId">Email Id</string>
+    <string name="password">Password</string>
+    <string name="noaccount">No account yet? Sign Up here</string>
+    <string name="signup">Sign Up</string>
+    <string name="registered">Already Registered. Login Me!</string>
+    <string name="forgotpass">Forgot Password</string>
+    <string name="cc">Hostellers</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="logout">LOG OUT</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

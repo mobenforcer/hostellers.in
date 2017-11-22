@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_centerVertical="true">
+
+
+
+        <EditText
+            android:id="@+id/editText_EmailId"
+            android:background="#4CAF50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EmailId"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:textColor="#FAFAFA"
+            android:padding="10dp"
+            android:textColorHint="#FAFAFA"/>
+
+        <EditText
+            android:id="@+id/editText_Password"
+            android:background="#4CAF50"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:textColor="#C2185B"
+            android:padding="10dp"
+            android:textColorHint="#FAFAFA"/>
+
+
+        <Button
+            android:id="@+id/btn_SignUp"
+            android:layout_marginTop="12dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:textAllCaps="true"
+            android:background="#FFEB3B"
+            android:textColor="#FAFAFA"/>
+
+
+        <Button
+            android:id="@+id/btn_already_registered"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:text="@string/registered"
+            android:textAllCaps="false"
+            android:textColor="#FAFAFA"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

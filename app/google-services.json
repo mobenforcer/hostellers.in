@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "985532201936",
+    "firebase_url": "https://collegecompanioncc.firebaseio.com",
+    "project_id": "collegecompanioncc",
+    "storage_bucket": "collegecompanioncc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985532201936:android:122a88fac4ccbe28",
+        "android_client_info": {
+          "package_name": "com.example.predat0r.collegecompanioncc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985532201936-f8qa53seld63lc1ljr42duad881i4vkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.predat0r.collegecompanioncc",
+            "certificate_hash": "89ec70cc6f6d17275f6938547d595f264da2c846"
+          }
+        },
+        {
+          "client_id": "985532201936-j5uikrv8n69lnsfnlohdsbolbdehujqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATZQvzGddI3omcKt8v8hFsGCvKgcFDtmU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985532201936-j5uikrv8n69lnsfnlohdsbolbdehujqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
